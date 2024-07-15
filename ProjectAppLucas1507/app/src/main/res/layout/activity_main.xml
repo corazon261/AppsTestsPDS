@@ -1,8 +1,85 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"/>
+    android:background="#3E483F"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/TxtViewPort"
+        android:layout_width="match_parent"
+        android:layout_height="116dp"
+        android:fontFamily="@font/alata"
+        android:text="Portifolio"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="60sp" />
+
+    <TextView
+        android:id="@+id/txtViewname"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:fontFamily="@font/alata"
+        android:text="  Lucas"
+        android:textColor="#63CFC9"
+        android:textSize="34sp" />
+
+    <Button
+        android:id="@+id/bttCert"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="#63CFC9"
+        android:backgroundTint="#63CFC9"
+        android:fontFamily="@font/alata"
+        android:onClick="certf"
+        android:text="Certificate"
+        android:textColorLink="#63CFC9"
+        android:textSize="24sp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="14dp">
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/bttProj"
+        android:layout_width="248dp"
+        android:layout_height="wrap_content"
+        android:background="#63CFC9"
+        android:backgroundTint="#63CFC9"
+        android:fontFamily="@font/alata"
+        android:text="Projects"
+        android:textSize="24sp"
+        android:onClick="project"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="14dp">
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/BttAme"
+        android:layout_width="248dp"
+        android:layout_height="wrap_content"
+        android:background="#63CFC9"
+        android:fontFamily="@font/alata"
+        android:text="About me"
+        android:textSize="24sp" />
+
+</LinearLayout>
