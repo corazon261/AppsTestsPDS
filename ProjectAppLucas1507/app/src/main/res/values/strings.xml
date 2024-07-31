@@ -1,4 +1,16 @@
 <resources>
     <string name="app_name">ProjectAppLucas1507</string>
     <string name="certficates" translatable="false">Certficates</string>
+    <string name="certificate">Certificate</string>
+    <string name="projects">Projects</string>
+    <string name="about_me">About me</string>
+    <string name="lucas">Lucas</string>
+    <string name="portifolio">Portifolio</string>
+    <string name="button">Button</string>
+    <string name="google_drive">Google Drive</string>
+    <string name="project">Projects</string>
+    <string name="github">Github</string>
+    <string name="todo">TODO</string>
+    <string name="instagram">instagram</string>
+    <string name="linkedln">Linkedln</string>
 </resources>

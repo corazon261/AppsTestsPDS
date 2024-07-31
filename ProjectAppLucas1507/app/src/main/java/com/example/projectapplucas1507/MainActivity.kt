@@ -20,12 +20,12 @@ class MainActivity : AppCompatActivity() {
             insets
         }
     }
-    fun certf(view: View){
-        val certificateActivity = Intent( this, CertificateActivity::class.java)
+    fun View.certf() {
+        val certificateActivity = Intent(this@MainActivity, CertificateActivity::class.java)
         startActivity(certificateActivity)
     }
-    fun project(view:View){
-        val projectAc = Intent(this, ProjectActivity::class.java)
+    fun View.project() {
+        val projectAc = Intent(this@MainActivity, ProjectActivity::class.java)
         startActivity(projectAc)
     }
 
