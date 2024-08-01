@@ -63,13 +63,6 @@
         android:textSize="24sp"
         android:onClick="project"/>
 
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="14dp"
-        tools:ignore="UselessLeaf">
-
-    </FrameLayout>
-
     <Button
         android:id="@+id/BttAme"
         android:layout_width="248dp"
