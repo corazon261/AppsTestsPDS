@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
             insets
         }
     }
-    fun View.RedirectToHome(){
+    fun View.ToHome(){
         val homeActivity= Intent(this@MainActivity, HomeActivity::class.java)
         startActivity(homeActivity)
 
